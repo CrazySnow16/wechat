@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+     <comPont id='dialog' 
+      bind:cancelEvent="_cancelEvent"  
+      bind:confirmEvent="_confirmEvent">
+    </comPont> 
+    
+    <button type="primary" bindtap="showDialog">点击我 </button>
+
+</view>
